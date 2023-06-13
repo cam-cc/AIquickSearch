@@ -1,7 +1,8 @@
 # Highlighted Text to ChatGPT
 
 This Python application captures highlighted text from any application on Ubuntu and sends it to the ChatGPT API when a specific hotkey is pressed. The generated response from the API is then printed to the console.
-
+![Application Screenshot](images/ss1.png)
+![Application Screenshot](images/ss2.png)
 ## Prerequisites
 
 - Python 3.6 or above
