@@ -3,7 +3,7 @@ import openai
 from pynput import keyboard
 
 # Set up your OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = 'YOU_API_KEY'
 
 
 def perform_action(text):
