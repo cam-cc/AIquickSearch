@@ -20,12 +20,10 @@ def perform_action(text):
 
     print("Generated Response:", generated_text)
 
+
 # Function to handle the hotkey press event
-
-
 def on_hotkey_press():
-    process = subprocess.Popen(
-        ['xclip', '-out', '-selection', 'clipboard'], stdout=subprocess.PIPE)
+    process = subprocess.Popen(['pbpaste'], stdout=subprocess.PIPE)
     highlighted_text, _ = process.communicate()
 
     highlighted_text = highlighted_text.decode().rstrip('\n')
