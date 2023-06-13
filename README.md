@@ -1,7 +1,7 @@
 # Highlighted Text to ChatGPT
 
-MacOS (mac_quick_search.py) pbpaste
-Linux (quick_search.py) xlib
+- MacOS (mac_quick_search.py) pbpaste
+- Linux (quick_search.py) xlib
 
 This Python application captures highlighted text from any application on Ubuntu and sends it to the ChatGPT API when a `<Ctrl><Alt>+h` hotkey is pressed. The generated response from the API is then printed to the console.
 ![Application Screenshot](images/ss1.png)
